@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FA0055172053A900DEEAB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA0054172053A900DEEAB4 /* UIKit.framework */; };
+		84FA0057172053A900DEEAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA0056172053A900DEEAB4 /* Foundation.framework */; };
+		84FA0059172053A900DEEAB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA0058172053A900DEEAB4 /* CoreGraphics.framework */; };
+		84FA005F172053A900DEEAB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84FA005D172053A900DEEAB4 /* InfoPlist.strings */; };
+		84FA0061172053A900DEEAB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA0060172053A900DEEAB4 /* main.m */; };
+		84FA0065172053A900DEEAB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA0064172053A900DEEAB4 /* AppDelegate.m */; };
+		84FA0067172053A900DEEAB4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FA0066172053A900DEEAB4 /* Default.png */; };
+		84FA0069172053A900DEEAB4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FA0068172053A900DEEAB4 /* Default@2x.png */; };
+		84FA006B172053A900DEEAB4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FA006A172053A900DEEAB4 /* Default-568h@2x.png */; };
+		84FA006E172053A900DEEAB4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FA006C172053A900DEEAB4 /* MainStoryboard.storyboard */; };
+		84FA0071172053A900DEEAB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA0070172053A900DEEAB4 /* ViewController.m */; };
+		84FA0079172053A900DEEAB4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA0078172053A900DEEAB4 /* SenTestingKit.framework */; };
+		84FA007A172053A900DEEAB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA0054172053A900DEEAB4 /* UIKit.framework */; };
+		84FA007B172053A900DEEAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FA0056172053A900DEEAB4 /* Foundation.framework */; };
+		84FA0083172053A900DEEAB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84FA0081172053A900DEEAB4 /* InfoPlist.strings */; };
+		84FA0086172053A900DEEAB4 /* mobile_hw3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA0085172053A900DEEAB4 /* mobile_hw3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FA007C172053A900DEEAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FA0049172053A900DEEAB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FA0050172053A900DEEAB4;
+			remoteInfo = "mobile-hw3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FA0051172053A900DEEAB4 /* mobile-hw3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-hw3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA0054172053A900DEEAB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84FA0056172053A900DEEAB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84FA0058172053A900DEEAB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84FA005C172053A900DEEAB4 /* mobile-hw3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mobile-hw3-Info.plist"; sourceTree = "<group>"; };
+		84FA005E172053A900DEEAB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84FA0060172053A900DEEAB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FA0062172053A900DEEAB4 /* mobile-hw3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobile-hw3-Prefix.pch"; sourceTree = "<group>"; };
+		84FA0063172053A900DEEAB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84FA0064172053A900DEEAB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84FA0066172053A900DEEAB4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84FA0068172053A900DEEAB4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84FA006A172053A900DEEAB4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84FA006D172053A900DEEAB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84FA006F172053A900DEEAB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84FA0070172053A900DEEAB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84FA0077172053A900DEEAB4 /* mobile-hw3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-hw3Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA0078172053A900DEEAB4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84FA0080172053A900DEEAB4 /* mobile-hw3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mobile-hw3Tests-Info.plist"; sourceTree = "<group>"; };
+		84FA0082172053A900DEEAB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84FA0084172053A900DEEAB4 /* mobile_hw3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mobile_hw3Tests.h; sourceTree = "<group>"; };
+		84FA0085172053A900DEEAB4 /* mobile_hw3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobile_hw3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FA004E172053A900DEEAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA0055172053A900DEEAB4 /* UIKit.framework in Frameworks */,
+				84FA0057172053A900DEEAB4 /* Foundation.framework in Frameworks */,
+				84FA0059172053A900DEEAB4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA0073172053A900DEEAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA0079172053A900DEEAB4 /* SenTestingKit.framework in Frameworks */,
+				84FA007A172053A900DEEAB4 /* UIKit.framework in Frameworks */,
+				84FA007B172053A900DEEAB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FA0048172053A900DEEAB4 = {
+			isa = PBXGroup;
+			children = (
+				84FA005A172053A900DEEAB4 /* mobile-hw3 */,
+				84FA007E172053A900DEEAB4 /* mobile-hw3Tests */,
+				84FA0053172053A900DEEAB4 /* Frameworks */,
+				84FA0052172053A900DEEAB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FA0052172053A900DEEAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FA0051172053A900DEEAB4 /* mobile-hw3.app */,
+				84FA0077172053A900DEEAB4 /* mobile-hw3Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FA0053172053A900DEEAB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FA0054172053A900DEEAB4 /* UIKit.framework */,
+				84FA0056172053A900DEEAB4 /* Foundation.framework */,
+				84FA0058172053A900DEEAB4 /* CoreGraphics.framework */,
+				84FA0078172053A900DEEAB4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84FA005A172053A900DEEAB4 /* mobile-hw3 */ = {
+			isa = PBXGroup;
+			children = (
+				84FA0063172053A900DEEAB4 /* AppDelegate.h */,
+				84FA0064172053A900DEEAB4 /* AppDelegate.m */,
+				84FA006C172053A900DEEAB4 /* MainStoryboard.storyboard */,
+				84FA006F172053A900DEEAB4 /* ViewController.h */,
+				84FA0070172053A900DEEAB4 /* ViewController.m */,
+				84FA005B172053A900DEEAB4 /* Supporting Files */,
+			);
+			path = "mobile-hw3";
+			sourceTree = "<group>";
+		};
+		84FA005B172053A900DEEAB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FA005C172053A900DEEAB4 /* mobile-hw3-Info.plist */,
+				84FA005D172053A900DEEAB4 /* InfoPlist.strings */,
+				84FA0060172053A900DEEAB4 /* main.m */,
+				84FA0062172053A900DEEAB4 /* mobile-hw3-Prefix.pch */,
+				84FA0066172053A900DEEAB4 /* Default.png */,
+				84FA0068172053A900DEEAB4 /* Default@2x.png */,
+				84FA006A172053A900DEEAB4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FA007E172053A900DEEAB4 /* mobile-hw3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84FA0084172053A900DEEAB4 /* mobile_hw3Tests.h */,
+				84FA0085172053A900DEEAB4 /* mobile_hw3Tests.m */,
+				84FA007F172053A900DEEAB4 /* Supporting Files */,
+			);
+			path = "mobile-hw3Tests";
+			sourceTree = "<group>";
+		};
+		84FA007F172053A900DEEAB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FA0080172053A900DEEAB4 /* mobile-hw3Tests-Info.plist */,
+				84FA0081172053A900DEEAB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FA0050172053A900DEEAB4 /* mobile-hw3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA0089172053A900DEEAB4 /* Build configuration list for PBXNativeTarget "mobile-hw3" */;
+			buildPhases = (
+				84FA004D172053A900DEEAB4 /* Sources */,
+				84FA004E172053A900DEEAB4 /* Frameworks */,
+				84FA004F172053A900DEEAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mobile-hw3";
+			productName = "mobile-hw3";
+			productReference = 84FA0051172053A900DEEAB4 /* mobile-hw3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FA0076172053A900DEEAB4 /* mobile-hw3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FA008C172053A900DEEAB4 /* Build configuration list for PBXNativeTarget "mobile-hw3Tests" */;
+			buildPhases = (
+				84FA0072172053A900DEEAB4 /* Sources */,
+				84FA0073172053A900DEEAB4 /* Frameworks */,
+				84FA0074172053A900DEEAB4 /* Resources */,
+				84FA0075172053A900DEEAB4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA007D172053A900DEEAB4 /* PBXTargetDependency */,
+			);
+			name = "mobile-hw3Tests";
+			productName = "mobile-hw3Tests";
+			productReference = 84FA0077172053A900DEEAB4 /* mobile-hw3Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FA0049172053A900DEEAB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CMU;
+			};
+			buildConfigurationList = 84FA004C172053A900DEEAB4 /* Build configuration list for PBXProject "mobile-hw3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84FA0048172053A900DEEAB4;
+			productRefGroup = 84FA0052172053A900DEEAB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FA0050172053A900DEEAB4 /* mobile-hw3 */,
+				84FA0076172053A900DEEAB4 /* mobile-hw3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FA004F172053A900DEEAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA005F172053A900DEEAB4 /* InfoPlist.strings in Resources */,
+				84FA0067172053A900DEEAB4 /* Default.png in Resources */,
+				84FA0069172053A900DEEAB4 /* Default@2x.png in Resources */,
+				84FA006B172053A900DEEAB4 /* Default-568h@2x.png in Resources */,
+				84FA006E172053A900DEEAB4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA0074172053A900DEEAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA0083172053A900DEEAB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84FA0075172053A900DEEAB4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FA004D172053A900DEEAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA0061172053A900DEEAB4 /* main.m in Sources */,
+				84FA0065172053A900DEEAB4 /* AppDelegate.m in Sources */,
+				84FA0071172053A900DEEAB4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FA0072172053A900DEEAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA0086172053A900DEEAB4 /* mobile_hw3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FA007D172053A900DEEAB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FA0050172053A900DEEAB4 /* mobile-hw3 */;
+			targetProxy = 84FA007C172053A900DEEAB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FA005D172053A900DEEAB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FA005E172053A900DEEAB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84FA006C172053A900DEEAB4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FA006D172053A900DEEAB4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		84FA0081172053A900DEEAB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FA0082172053A900DEEAB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FA0087172053A900DEEAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84FA0088172053A900DEEAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FA008A172053A900DEEAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobile-hw3/mobile-hw3-Prefix.pch";
+				INFOPLIST_FILE = "mobile-hw3/mobile-hw3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84FA008B172053A900DEEAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobile-hw3/mobile-hw3-Prefix.pch";
+				INFOPLIST_FILE = "mobile-hw3/mobile-hw3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84FA008D172053A900DEEAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mobile-hw3.app/mobile-hw3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobile-hw3/mobile-hw3-Prefix.pch";
+				INFOPLIST_FILE = "mobile-hw3Tests/mobile-hw3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84FA008E172053A900DEEAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mobile-hw3.app/mobile-hw3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobile-hw3/mobile-hw3-Prefix.pch";
+				INFOPLIST_FILE = "mobile-hw3Tests/mobile-hw3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FA004C172053A900DEEAB4 /* Build configuration list for PBXProject "mobile-hw3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA0087172053A900DEEAB4 /* Debug */,
+				84FA0088172053A900DEEAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FA0089172053A900DEEAB4 /* Build configuration list for PBXNativeTarget "mobile-hw3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA008A172053A900DEEAB4 /* Debug */,
+				84FA008B172053A900DEEAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84FA008C172053A900DEEAB4 /* Build configuration list for PBXNativeTarget "mobile-hw3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FA008D172053A900DEEAB4 /* Debug */,
+				84FA008E172053A900DEEAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FA0049172053A900DEEAB4 /* Project object */;
+}
